@@ -1,4 +1,6 @@
-import { ConsoleLogger, Injectable, LoggerService } from '@nestjs/common';
+/* eslint-disable prettier/prettier */
+/* eslint-disable prefer-rest-params */
+import { ConsoleLogger, Injectable } from '@nestjs/common';
 
 @Injectable()
 export class LoggingService extends ConsoleLogger {
